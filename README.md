@@ -5,6 +5,8 @@
 
 ## About Learning
 
+if you want to see how i describe my learning summary in Chinese,[CLICK-HERE](./小结.md)
+
 ### About Training Results and HOW TO TRAIN
 Also,it has some tips of Creating your own dataset and how to improve your dataset
 [Dataset-and-Models](https://docs.ultralytics.com/tutorials/training-tips-best-results/)
