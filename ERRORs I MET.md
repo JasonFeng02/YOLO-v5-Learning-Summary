@@ -1,0 +1,42 @@
+# 错误集锦（中文）
+
+更新于3.6 15：39
+
+## pytorch is not compiled with nccl support
+
+[NCCL]（https://blog.csdn.net/qq_40185847/article/details/115074443）
+
+## RuntimeError: [enforce fail at ..\c10\core\CPUAllocator.cpp:72] data. DefaultCPUAllocator
+
+[tensor error](https://blog.csdn.net/Hunter_Murphy/article/details/107923209)
+
+## DefaultCPUAllocator: not enough memory: you tried to allocate 94633984 bytes. Buy new RAM!
+
+小结中的3.6日更新已解决
+
+[小结](./小结.md)
+
+[memory](https://blog.csdn.net/canpian7/article/details/115419162)
+
+## 理解finetrue
+
+虽然不难理解，但还是贴个我学习时候的[link](https://zhuanlan.zhihu.com/p/35890660)
+
+## 多卡运行
+[Multi-GPU](https://blog.csdn.net/shulongjiang/article/details/110789001)
+
+## iccp libpng warning 
+自己重新洗数据，无解
+
+## cache rewrite
+重新训练前把已经保存的train cache移出去，或者让他自己保存npy文件也行
+
+## 提示warning wandb的
+pip install wandb，看weight和bias的
+
+## 提示tensorboard 但是你又打不开
+在events.out.tfevents的上一级调用cmd执行tensorboard --logdir=1，出现的logdir后的就是log所在文件夹，此时运行chrome就行了，地址是127.0.0.1:6006或localhost:6006
+
+## cv2 相关的 
+此时应该跑完了第一轮epoch，在对图像绘图时内存不够，适当调小bs即可
+
