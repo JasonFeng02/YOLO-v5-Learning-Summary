@@ -46,3 +46,14 @@ pip install wandb，看weight和bias的
 在terminal里面查看一下装了wandb没有，装了就wandb init，会给出网址，登录完就行了，最后会给一个不可输入的验证码，点击复制后paste到terminal里面，直接enter，验证码是不可见类型，看不到是正常的。
 
 怎么看？跑train的时候有usage和分布图链接
+
+## wandb: Network error (ConnectionError), entering retry loop.
+问题在测试10epochs的时候出现，loss图非常完美，但是最后processing的时候loop了很久
+
+额，截至到现在其实都没有比较好的方式解决，我的话可能会选择offline去看，但是这样就不能云端同步，看不到微调后的云端对比数据[documents](https://docs.wandb.ai/guides/self-hosted/local)
+
+## wandb: Network error (TransientError), entering retry loop.
+
+同上
+
+
