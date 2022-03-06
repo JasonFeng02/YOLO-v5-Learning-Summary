@@ -33,7 +33,7 @@ According by the FLOPs limitted by hardware in Turing's lab.At the very first ti
 More solutions are still coming
 
 something worse is what was said that the other TITAN X had some problems on PCIE Speed
-![GPU-Problems](./pic2.png)
+![GPU-Problems](./pic2.jpg)
 After proving the fact that,it really got some unforseen problems in PCIE speed and Windows CUDA support.In the next time we may turn Training PC into Linux system to get more powerful performance.
 
 Also，there is a good news that on pytorch 1.7.0 or higher version,Windows group and Pytorch are now support Multi-GPU training now,the only thing is that we should add the following codes into `init_progress_group`
