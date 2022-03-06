@@ -7,7 +7,7 @@
 
 if you want to see how i describe my learning summary in Chinese,[CLICK-HERE](./小结.md)
 
-about errors i met during using the framework and how i solve some of it can go to [ERRORs I MET](./ERRORs I MET.md)
+about errors i met during using the framework and how i solve some of it can go to [ERROR](./ERROR.md)
 
 ### About Training Results and HOW TO TRAIN
 Also,it has some tips of Creating your own dataset and how to improve your dataset
