@@ -40,3 +40,9 @@ pip install wandb，看weight和bias的
 ## cv2 相关的 
 此时应该跑完了第一轮epoch，在对图像绘图时内存不够，适当调小bs即可
 
+## 3.6 19：57 新增
+## wandb.errors.UsageError: api_key not configured (no-tty). call wandb.login(key=[your_api_key])
+
+在terminal里面查看一下装了wandb没有，装了就wandb init，会给出网址，登录完就行了，最后会给一个不可输入的验证码，点击复制后paste到terminal里面，直接enter，验证码是不可见类型，看不到是正常的。
+
+怎么看？跑train的时候有usage和分布图链接
