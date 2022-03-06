@@ -52,4 +52,4 @@ more information you can go to [Multi-GPU-on-UBUNTU](https://blog.csdn.net/kejiz
 
 Update at 14:29 March.6th,i have succeed in processing Multi-GPU training on Windows platform, and got full use of each GPU by finetune my framework
 
-[pic8](pic8.png)
+![pic8](pic8.png)
