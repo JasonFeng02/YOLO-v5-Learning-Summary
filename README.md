@@ -1,5 +1,3 @@
-# YOLO-v5-Learning-Summary
-Some codes while I'm learning how to use YOLO framework
 # Documents while Learning YOLO
 
 ## About requirements and installation
