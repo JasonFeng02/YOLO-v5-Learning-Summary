@@ -49,3 +49,7 @@ rank=args.rank	)   # rank是本机gpu的编号列表，如2个gpu即为 [0,1]
 on yolo's code,we can easily find function `os.environ`,now we can define the numbers of GPU you use to train.
 
 more information you can go to [Multi-GPU-on-UBUNTU](https://blog.csdn.net/kejizuiqianfang/article/details/102454278?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.nonecase)
+
+Update at 14:29 March.6th,i have succeed in processing Multi-GPU training on Windows platform, and got full use of each GPU by finetune my framework
+
+[pic8](pic8.png)
