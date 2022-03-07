@@ -56,4 +56,5 @@ pip install wandb，看weight和bias的
 
 同上
 
-
+## OSError: [WinError 1455] 页面文件太小，无法完成操作。 Error loading “D:\Anaconda\envs\pytorch-1.4\lib\site-package
+要么调小bs。要么把workers设为0
