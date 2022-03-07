@@ -58,3 +58,7 @@ pip install wandb，看weight和bias的
 
 ## OSError: [WinError 1455] 页面文件太小，无法完成操作。 Error loading “D:\Anaconda\envs\pytorch-1.4\lib\site-package
 要么调小bs。要么把workers设为0
+
+## \VEN_10DE&DEV_17C2&SUBSYS_113210DE&REV_A1\6&7dcfedc&0&0000020A 需要进一步安装。
+问题出自训练机，公版卡的pcie速率有问题，协商的速率问题很大，交换pcie口后无法解决，搁置。
+
