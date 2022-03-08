@@ -63,6 +63,7 @@ pip install wandb，看weight和bias的
 问题出自训练机，公版卡的pcie速率有问题，协商的速率问题很大，交换pcie口后无法解决，搁置。
 
 ## RuntimeError: can't start new thread
+出自finetune轮末期，调小workers数到4即可。
 
-
-## 显卡爆显存，ros或者热风机吹一下，ros看看哪个颗粒寄了
+## 显卡显存寄了
+ros看一眼哪个颗粒寄了，可能是脱焊，热风枪吹一下看颗粒数值，还是不行就是真寄了
