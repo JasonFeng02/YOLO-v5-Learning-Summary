@@ -73,3 +73,6 @@ GPU2 无法跑在PCIE 3.0x16下，速率协商确实有问题，兼容模式跑�
 
 ## 显卡显存寄了
 ros看一眼哪个颗粒寄了，可能是脱焊，热风枪吹一下看颗粒数值，还是不行就是真寄了
+
+## RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
+这个时候不是cudnn真的寄了，是bs太大，显存撑不住，调小点bs。当然前期遇到这问题说不定是你cudnn没配置好
