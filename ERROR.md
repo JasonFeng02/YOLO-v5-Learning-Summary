@@ -34,6 +34,12 @@
 ## 提示warning wandb的
 pip install wandb，看weight和bias的
 
+## 3.9 15：35
+已证实双卡都加载的情况下，运行wandb保存训练数据时会造成严重的内存泄露，导致以下结果，包括但不限于死机，重启，cpu非训练时80%+负载，GPU2掉线，主板报警，建议所有人使用双卡训练时关闭wandb，使用tensorboard以查看数据。使用YOLO框架的建议使用最新的release或者将其他训练时产生的问题提交issue。
+
+## 3.9 15：38
+GPU2 无法跑在PCIE 3.0x16下，速率协商确实有问题，兼容模式跑在PCIE3.0x4上，注意一下bs大小和负载可安全完成调参和训练。
+
 ## 提示tensorboard 但是你又打不开
 在events.out.tfevents的上一级调用cmd执行tensorboard --logdir=1，出现的logdir后的就是log所在文件夹，此时运行chrome就行了，地址是127.0.0.1:6006或localhost:6006
 
