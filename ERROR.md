@@ -88,3 +88,9 @@ ros看一眼哪个颗粒寄了，可能是脱焊，热风枪吹一下看颗粒�
 [ISSUE](https://github.com/pytorch/pytorch/issues/9163),解决的其中之一，但是训练机我默认开启NCCL，所以大概率还是卡2的问题
 ## 软重启后丢失GPU2，出自训练机
 硬重启一波看看，如果还不行就寄，降低PCIE速率试试，如果还不行就显存出问题了。
+
+## loss, loss_items = compute_loss(pred, targets.to(device))  # loss scaled by batch_size
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+正在解决
