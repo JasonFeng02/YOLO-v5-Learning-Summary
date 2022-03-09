@@ -79,6 +79,6 @@ ros看一眼哪个颗粒寄了，可能是脱焊，热风枪吹一下看颗粒�
 
 ## 3.9 16:08 CUDA memory 相关，提示了 CUDA launch blocking和CUDA API相关，没能log下来，系统保护重启了
 暂无解决方式
-
+[ISSUE](https://github.com/pytorch/pytorch/issues/9163),解决的其中之一，但是训练机我默认开启NCCL，所以大概率还是卡2的问题
 ## 软重启后丢失GPU2，出自训练机
 硬重启一波看看，如果还不行就寄，降低PCIE速率试试，如果还不行就显存出问题了。
