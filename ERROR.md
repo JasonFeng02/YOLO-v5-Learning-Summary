@@ -76,3 +76,6 @@ ros看一眼哪个颗粒寄了，可能是脱焊，热风枪吹一下看颗粒�
 
 ## RuntimeError: Unable to find a valid cuDNN algorithm to run convolution
 这个时候不是cudnn真的寄了，是bs太大，显存撑不住，调小点bs。当然前期遇到这问题说不定是你cudnn没配置好
+
+## 3.9 16:08 CUDA memory 相关，提示了 CUDA launch blocking和CUDA API相关，没能log下来，系统保护重启了
+暂无解决方式
