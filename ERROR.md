@@ -94,3 +94,6 @@ RuntimeError: CUDA error: unspecified launch failure
 CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
 For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
 正在解决
+
+## RuntimeError: DataLoader worker (pid(s) 11800, 1728) exited unexpectedly
+mark
