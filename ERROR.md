@@ -96,4 +96,4 @@ For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
 正在解决
 
 ## RuntimeError: DataLoader worker (pid(s) 11800, 1728) exited unexpectedly
-mark
+先试试0行不行，不行可能是bs大，调小bs再不行就是代码寄
